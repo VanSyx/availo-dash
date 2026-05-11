@@ -12,7 +12,7 @@ import { Separator } from "@/components/ui/separator";
 import { StatusBadge } from "@/components/StatusBadge";
 import { useBookings } from "@/store/bookings";
 
-export const Route = createFileRoute("/bookings/$id")({
+export const Route = createFileRoute("/bookings_/$id")({
   head: ({ params }) => ({
     meta: [{ title: `Booking ${params.id} — Bookly` }],
   }),
